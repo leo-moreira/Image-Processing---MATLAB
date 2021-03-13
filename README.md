@@ -22,7 +22,7 @@ title("Original image");
 % Get size of the image in pixels
 \[x, y, c\] = size(imtest);
 
-![](test/script_01.png)
+![](html/script_01.png)
 
 For Loop to turn image into gray
 --------------------------------
@@ -55,7 +55,7 @@ Final results
 montage( {brightImage, imtest, gray}, "Size", \[1 3\]);
 title("Custom image brighter, custom image and gray image with pre-built function");
 
-![](test/script_02.png)
+![](html/script_02.png)
 
   
 [Published with MATLAB® R2020b](https://www.mathworks.com/products/matlab/)
